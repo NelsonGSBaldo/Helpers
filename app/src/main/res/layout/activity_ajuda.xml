@@ -22,17 +22,19 @@
         android:id="@+id/imageView3"
         android:layout_width="250dp"
         android:layout_height="258dp"
-        app:srcCompat="@drawable/helpdes"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="0dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:srcCompat="@drawable/helpdes" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="29dp"
         android:layout_height="41dp"
-        app:srcCompat="@drawable/botaosair"
-        tools:layout_editor_absoluteX="349dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/botaosair" />
 
     <TextView
         android:id="@+id/textView"
@@ -41,18 +43,9 @@
         android:fontFamily="sans-serif-medium"
         android:text="TELEFONES PARA AJUDA"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="275dp" />
-
-    <Button
-        android:id="@+id/bt_dh"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="100: Disque Direitos Humanos"
-        android:onClick="bt_dh"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="323dp" />
-
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

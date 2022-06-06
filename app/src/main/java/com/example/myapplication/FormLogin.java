@@ -116,7 +116,7 @@ public class FormLogin extends AppCompatActivity {
         finish();
     }
 
-    private void IniciarComponentes(){
+    private void IniciarComponentes() {
         text_tela_cadastro = findViewById(R.id.text_tela_cadastro);
         edit_email = findViewById(R.id.edit_email);
         edit_senha = findViewById(R.id.edit_senha);
