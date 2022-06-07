@@ -23,6 +23,8 @@ allprojects {
         // Check that you have the following line (if not, add it):
         jcenter()
         google()
+        maven { url 'https://jitpack.io'}
+        maven {url 'https://dl.cloudsmith.io/public/cometchat/cometchat-pro-android/maven/'}
         // ...
     }
 }
