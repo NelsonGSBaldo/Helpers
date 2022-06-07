@@ -39,7 +39,7 @@
         android:paddingEnd="20dp"
         android:paddingRight="20dp"
         android:paddingBottom="20dp"
-        android:text="Digite seu e-mail para recuperar senha:"
+        android:text="Digite seu e-mail para alterar senha:"
         android:textColor="@android:color/white"
         android:textSize="20sp"
         android:textStyle="bold"

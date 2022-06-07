@@ -5,13 +5,27 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 public class TelaAjustes extends AppCompatActivity {
+
+    private Button redefinir_senha;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_ajustes);
+
+        IniciarComponentes();
+
+        redefinir_senha.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(TelaAjustes.this,TelaRedefinirSenha.class);
+                startActivity(intent);
+            }
+        });
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true); //Mostrar o botão
         getSupportActionBar().setHomeButtonEnabled(true);      //Ativar o botão
@@ -29,6 +43,10 @@ public class TelaAjustes extends AppCompatActivity {
             default:break;
         }
         return true;
+    }
+
+    private void IniciarComponentes() {
+        redefinir_senha = findViewById(R.id.redefinirSenha);
     }
 
 
