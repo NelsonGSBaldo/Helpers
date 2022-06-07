@@ -23,10 +23,13 @@ import com.google.firebase.auth.FirebaseUser;
 public class FormLogin extends AppCompatActivity {
 
     private TextView text_tela_cadastro;
+    private TextView text_redefinir_senha;
+
     private EditText edit_email,edit_senha;
     private Button bt_entrar;
     private ProgressBar progressBar;
     String[] mensagens = {"Preencha todos os campos"};
+
 
 
     @Override
@@ -60,6 +63,15 @@ public class FormLogin extends AppCompatActivity {
                 }else{
                     AutenticarUsuario(v);
                 }
+            }
+        });
+
+        text_redefinir_senha.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(FormLogin.this,TelaRedefinirSenha.class);
+                startActivity(intent);
             }
         });
     }
@@ -109,7 +121,6 @@ public class FormLogin extends AppCompatActivity {
     }
 
 
-
     private void TelaPrincipal(){
         Intent intent = new Intent(FormLogin.this,ProjetoPrincipal.class);
         startActivity(intent);
@@ -122,5 +133,7 @@ public class FormLogin extends AppCompatActivity {
         edit_senha = findViewById(R.id.edit_senha);
         bt_entrar = findViewById(R.id.bt_entrar);
         progressBar = findViewById(R.id.progressbar);
+
+        text_redefinir_senha = findViewById(R.id.text_redefinir_senha);
     }
 }

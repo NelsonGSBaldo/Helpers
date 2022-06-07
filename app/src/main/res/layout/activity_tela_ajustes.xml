@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaAjustes">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/background" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="250dp"
+        android:layout_height="258dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/helpdes" />
+
+    <Switch
+        android:id="@+id/anonimo"
+        android:layout_width="341dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="56dp"
+        android:background="@android:color/transparent"
+        android:padding="20dp"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        android:text="Nome Anônimo"
+        android:textColor="@android:color/white"
+        android:textIsSelectable="false"
+        android:textOff="Desligado"
+        android:textOn="Ligado"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <Switch
+        android:id="@+id/oculto"
+        android:layout_width="339dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:padding="20dp"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        android:text="Nome do Aplicativo Oculto"
+        android:textColor="@android:color/white"
+        android:textOff="Desligado"
+        android:textOn="Ligado"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/anonimo" />
+
+    <Button
+        android:id="@+id/redefinirSenha"
+        android:layout_width="338dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="28dp"
+        android:background="@android:color/transparent"
+        android:text="Redefinir Senha"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/oculto" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

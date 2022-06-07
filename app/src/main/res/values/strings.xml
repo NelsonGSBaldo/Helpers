@@ -2,6 +2,7 @@
     <string name="app_name">My Application</string>
     <string name="entrar">Entrar</string>
     <string name="text_cadastro">Crie uma conta clicando aqui</string>
+    <string name="text_redefinir_senha">Redefinir Senha</string>
     <string name="title_cadastro">Cadastre-se</string>
     <string name="text_sair">Sair</string>
     <string name="text_ajuda">Ajuda</string>

@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.myapplication">
+
     <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
@@ -15,6 +16,12 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".TelaRedefinirSenha"
+            android:exported="false" />
+        <activity
+            android:name=".TelaAjustes"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
@@ -22,6 +29,9 @@
             android:exported="false" />
         <activity
             android:name=".ProjetoPrincipal"
+            android:exported="false" />
+        <activity
+            android:name=".TelaAjuda"
             android:exported="false" />
         <activity
             android:name=".FormLogin"

@@ -9,11 +9,14 @@
         <entry key="..\:/Users/helle/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/edit_text.xml" value="0.352" />
         <entry key="..\:/Users/helle/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/shape_app_categoria.xml" value="0.2555" />
         <entry key="..\:/Users/helle/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/shape_container_categorias.xml" value="0.2555" />
-        <entry key="..\:/Users/helle/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_ajuda.xml" value="0.264" />
-        <entry key="..\:/Users/helle/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_form_cadastro.xml" value="0.1" />
+        <entry key="..\:/Users/helle/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_ajuda.xml" value="0.375" />
+        <entry key="..\:/Users/helle/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_form_cadastro.xml" value="0.264" />
         <entry key="..\:/Users/helle/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_form_login.xml" value="0.264" />
         <entry key="..\:/Users/helle/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/helle/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main1.xml" value="0.25" />
         <entry key="..\:/Users/helle/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_projeto_principal.xml" value="0.25" />
+        <entry key="..\:/Users/helle/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_tela_ajustes.xml" value="0.1" />
+        <entry key="..\:/Users/helle/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_tela_redefinir_senha.xml" value="0.23278985507246377" />
       </map>
     </option>
   </component>
