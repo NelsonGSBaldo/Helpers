@@ -44,9 +44,4 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:27.1.0')
     implementation'com.google.firebase:firebase-auth'
     implementation'com.google.firebase:firebase-firestore'
-    implementation 'com.github.stfalcon-studio:Chatkit:0.4.1'
-    implementation 'com.cometchat:pro-android-chat-sdk:2.4.1'
-
-
-
 }
